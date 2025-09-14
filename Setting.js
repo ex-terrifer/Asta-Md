@@ -1,7 +1,7 @@
 const fs = require('fs-extra')
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348039607375' ;
-global.mongodb = process.env.MONGODB_URI || "" ; 
+global.owner = process.env.OWNER_NUMBER || '94724660158' ;
+global.mongodb = process.env.MONGODB_URI || "mongodb+srv://EX_TeRriFeR:sithum321@cluster0.bcsmchl.mongodb.net/" ; 
 global.port=5000  ;
 global.audio = '' ; 
 global.video = '' ;
@@ -19,10 +19,11 @@ global.Gname = process.env.GNAME ||"Asta-Md-sᴜᴘᴘᴏʀᴛ",
 global.zyt = process.env.ZYT || '1',
 global.waUrl = process.env.WAURL ||"",
 global.website = '' ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || '' ;
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/2140/production/_85021580_85021579.jpg' ;
 module.exports = {
-  sessionName: process.env.SESSION_ID || '',
-  botname: process.env.BOT_NAME || 'Asta-Md',
+  sessionName: process.env.SESSION_ID || '𝙰𝚂𝙸𝚃𝙷𝙰-𝙼𝙳=14125400e232a4df
+',
+  botname: process.env.BOT_NAME || 'King Rajapaksha',
   ownername:  process.env.OWNER_NAME || `Astro`,
   author:  process.env.PACK_AUTHER || 'Astro', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
@@ -50,7 +51,7 @@ module.exports = {
   VERSION: process.env.VERSION || 'V.4.5.0',
   LANG: process.env.THEME|| 'Asta_Md',
   menu : process.env.MENU || '',
-  WORKTYPE: process.env.WORKTYPE || 'private'
+  WORKTYPE: process.env.WORKTYPE || 'public'
 };
 
 
